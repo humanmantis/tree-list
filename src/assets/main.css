@@ -1,0 +1,22 @@
+@import "./base.css";
+
+#app {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+.button {
+  color: #3f96c4;
+  background: unset;
+  border: none;
+  margin: 5px;
+
+  &:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
